@@ -1,3 +1,3 @@
 # Java Concepts
 
-1.Relationships between classes in Java - relations
+1. Relationships between classes in Java - relations
