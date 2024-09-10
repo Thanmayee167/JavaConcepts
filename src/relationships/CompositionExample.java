@@ -38,7 +38,7 @@ class House {
 
 public class CompositionExample {
     public static void main(String[] args) {
-        House house = new House("123 Main St");
+        House house = new House("123 InitializerBlockInheritance St");
         house.addRoom("Living Room");
         house.addRoom("Bedroom");
 
