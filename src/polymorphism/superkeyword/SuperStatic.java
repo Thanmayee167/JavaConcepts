@@ -1,4 +1,4 @@
-package superkeyword;
+package polymorphism.superkeyword;
 
 //Using super in Static Methods
 class Animal3 {

@@ -1,4 +1,4 @@
-package instanceintializerblock;
+package polymorphism.instanceintializerblock;
 
 //Initializing Common Code for Multiple Constructors
 class InstanceInitializerBlockMultipleConstructor {

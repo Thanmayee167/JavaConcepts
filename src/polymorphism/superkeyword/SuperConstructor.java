@@ -1,9 +1,11 @@
-package superkeyword;
+package polymorphism.superkeyword;
 
 // Constructor Chaining with super
 class Animal1 {
     //comment below constructor for more understanding
-    Animal1(){}
+    Animal1() {
+    }
+
     Animal1(String name) {
         System.out.println("Animal1: " + name);
     }

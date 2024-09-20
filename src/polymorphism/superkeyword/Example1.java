@@ -1,11 +1,11 @@
 package polymorphism.superkeyword;
 
 //super is used to refer immediate parent class instance variable.
-class Animal {
+class AnimalExample {
     String color = "white";
 }
 
-class Dog extends Animal {
+class DogExample extends AnimalExample {
     String color = "black";
 
     void printColor() {
@@ -16,7 +16,7 @@ class Dog extends Animal {
 
 public class Example1 {
     public static void main(String[] args) {
-        Dog d = new Dog();
+        DogExample d = new DogExample();
         d.printColor();
     }
 }

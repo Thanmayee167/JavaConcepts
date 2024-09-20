@@ -1,13 +1,13 @@
 package polymorphism.superkeyword;
 
 //super can be used to invoke parent class method
-class Animal1 {
+class AnimalExample1 {
     void eat() {
         System.out.println("eating...");
     }
 }
 
-class Dog1 extends Animal1 {
+class DogExample1 extends AnimalExample1 {
     void eat() {
         System.out.println("eating bread...");
     }
@@ -24,7 +24,7 @@ class Dog1 extends Animal1 {
 
 public class Example2 {
     public static void main(String[] args) {
-        Dog1 d = new Dog1();
+        DogExample1 d = new DogExample1();
         d.work();
     }
 }

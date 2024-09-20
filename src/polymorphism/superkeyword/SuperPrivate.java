@@ -1,8 +1,8 @@
-package superkeyword;
+package polymorphism.superkeyword;
 
 //Accessing Hidden Fields
 class Animal5 {
-    private String name = "Animal5";
+    private final String name = "Animal5";
 
     public String getName() {
         return name;

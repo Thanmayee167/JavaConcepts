@@ -1,4 +1,4 @@
-package instanceintializerblock;
+package polymorphism.instanceintializerblock;
 
 //
 public class InitializerBlockPositionExample {
@@ -12,14 +12,14 @@ public class InitializerBlockPositionExample {
         System.out.println("Third Instance Initializer Block");
     }
 
-    // Constructor
-    InitializerBlockPositionExample() {
-        System.out.println("Constructor");
-    }
-
     // Second Instance Initializer Block
     {
         System.out.println("Second Instance Initializer Block");
+    }
+
+    // Constructor
+    InitializerBlockPositionExample() {
+        System.out.println("Constructor");
     }
 
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package superkeyword;
+package polymorphism.superkeyword;
 
 //super in Multiple Inheritance via Interfaces
 interface Animal4 {

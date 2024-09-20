@@ -1,4 +1,4 @@
-package superkeyword;
+package polymorphism.superkeyword;
 
 //Method Overriding and super
 class Animal {

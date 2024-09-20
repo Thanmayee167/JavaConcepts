@@ -1,4 +1,4 @@
-package instanceintializerblock;
+package polymorphism.instanceintializerblock;
 
 class BasicExample {
     // Instance Initializer Block
